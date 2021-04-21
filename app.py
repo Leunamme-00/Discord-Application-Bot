@@ -20,9 +20,7 @@ db2 = firebase.database()
 
 cred = credentials.Certificate('C:/Users/emman/dev/Application-bot/sapplication-bot-80ea1-firebase-adminsdk-c1294-1c05e29bc4.json')
 
-firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://application-bot-80ea1-default-rtdb.firebaseio.com/"
-})
+firebase_admin.initialize_app(cred, {"Removed"})
 
 def get_data():
     retriveing = db2.child("applications").get()
